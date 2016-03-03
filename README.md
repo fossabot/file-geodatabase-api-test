@@ -63,17 +63,16 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 * SQL joins are not supported.
 
 ## Fixed Issues at 1.4:
-
-NIM071731 Add support for Compressed Data File. (Read Only)
-NIM073951 Request to support custom spatial references with the File Geodatabase API.
-NIM082242 ENH: File Geodatabase API (v1.2) executeSQL should honor SELECT statement's nominated field list, in the returned EnumRows object, instead of all fields.
-NIM084105 MultiPartShapeBuffer::GetMs return the wrong pointer value 
-NIM085366 Using only a null or empty geometry results in a invalid extent.
-NIM085995 Using ExecuteSQL with an ORDER BY on a text field fails on MacOS
-NIM098151 Table.GetDefinition function leaks memory
-NIM098225 CloseGeodatabase hangs on 64-bit if same gdb opened more than once
-NIM098322 Getter/setter functions by name need to be optimized for sequential search across the column selection list.
-NIM099041 Some apparently valid XML feature class definitions create tables that fail on export and copy/paste.
+* NIM071731 Add support for Compressed Data File. (Read Only)
+* NIM073951 Request to support custom spatial references with the File Geodatabase API.
+* NIM082242 ENH: File Geodatabase API (v1.2) executeSQL should honor SELECT statement's nominated field list, in the returned EnumRows object, instead of all fields.
+* NIM084105 MultiPartShapeBuffer::GetMs return the wrong pointer value 
+* NIM085366 Using only a null or empty geometry results in a invalid extent.
+* NIM085995 Using ExecuteSQL with an ORDER BY on a text field fails on MacOS
+* NIM098151 Table.GetDefinition function leaks memory
+* NIM098225 CloseGeodatabase hangs on 64-bit if same gdb opened more than once
+* NIM098322 Getter/setter functions by name need to be optimized for sequential search across the column selection list.
+* NIM099041 Some apparently valid XML feature class definitions create tables that fail on export and copy/paste.
 
 ## Licensing
 Copyright 2016 Esri
