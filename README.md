@@ -4,23 +4,55 @@ The File Geodatabase C++ API for Windows, MacOS and Linux. .NET bindings are inc
 ## Features
 
 ## Instructions
-Download the operating system/compiler varient(s) of the API that you need.
+Download the operating system/compiler varient(s) of the API that you need and unzip it into a folder.
 
+Linux (32-bit, 64-bit):
+FileGDB_API_1_4-32.tar.gz
+FileGDB_API_1_4-64.tar.gz
+
+MacOS:
+Mountain Lion 10.8: FileGDB_API_1_4-64clang.zip
+Mavericks (10.9) and Yosemite (10.10): FileGDB_API_1_4-64gcc.zip
+
+Windows:
+FileGDB_API_VS2010_1_4.zip
+FileGDB_API_VS2012.zip
+FileGDB_API_VS2013.zip
 ## Requirements
 
-For details see the README.md in the operating system\compiler director.
-Windows
-   Visual Studio 2010
-   Visual Studio 2012
-   Visual Studio 2013
-Linux
-   gcc version 4.1.2 (minimum supported compiler)
-MacOS
-   gcc 4.2.1. Mountain Lion 10.8
-   clang 3.7, Mavericks (10.9) and Yosemite (10.10) 
+#####Windows
+        Windows 2008 Server Standard, Enterprise & Datacenter (32-bit and 64-bit) SP2
+        Windows 2008 R2 Server Standard, Enterprise, and Datacenter (64-bit)
+        Windows 2012 Server Statard and Datacenter (64-bit)  
+        Windows 2012 R2 Server Statard and Datacenter (64-bit)  	 
+        Windows 7 Ultimate, Enterprise, Professional, Home Premium (32-bit and 64-bit)
+        Windows 8.0 Enterprise, Profesional  (32-bit and 64-bit)
+        Windows 8.1 Enterprise, Profesional  (32-bit and 64-bit)
+		 
+		Visual Studio 2010 (C++) Standard, Professional, or Team Editions required for development.
+		Visual Studio 2010 C and C++ Runtimes required for deployment.
+		.NET 4.0 Framework is required for the .NET wrapper.
+
+		Visual Studio 2012 SP4 (C++) Premium, Professional, Ultimate or Team Editions required for development.
+		Visual Studio 2012 C and C++ Runtimes required for deployment.
+		.NET 4.5 Framework is required for the .NET wrapper.
+
+		Visual Studio 2013 SP1 (C++) Premium, Professional, Ultimate or Team Editions required for development.
+		Visual Studio 2013 C and C++ Runtimes required for deployment.
+		.NET 4.5.1 Framework is required for the .NET wrapper.
+#####Linux
+		The minimum supported platform is "Red Hat Enterprise Linux Release 5.7" or 
+		"SUSE Linux Enterprise Server 11". The minimum supported compiler is gcc 
+		version 4.1.2.
+#####MacOS
+		An Intel-based Mac is required.
+		The minimum supported OS is Mountain Lion 10.8. gcc 4.2.1 is required. 
+		Also Mavericks (10.9) and Yosemite (10.10) clang 3.7
 
 ## Resources
 * [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
+* [GeoNet] (https://geonet.esri.com/community/developers/gis-developers/file-geodatabase-api)
+* Esri customers can call Technical Support for assistance or to report issues.
 
 ## Issues
 
@@ -30,7 +62,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 * Concurrent access from Windows and Linux clients to the same File GeoDatabase can corrupt data. This combination should be avoided.
 * SQL joins are not supported.
 
-## Fixed Issues:
+## Fixed Issues at 1.4:
 
 NIM071731 Add support for Compressed Data File. (Read Only)
 NIM073951 Request to support custom spatial references with the File Geodatabase API.
@@ -43,12 +75,8 @@ NIM098225 CloseGeodatabase hangs on 64-bit if same gdb opened more than once
 NIM098322 Getter/setter functions by name need to be optimized for sequential search across the column selection list.
 NIM099041 Some apparently valid XML feature class definitions create tables that fail on export and copy/paste.
 
-## Contributing
-
-Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
-
 ## Licensing
-Copyright 2015 Esri
+Copyright 2016 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
