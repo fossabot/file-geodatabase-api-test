@@ -107,5 +107,5 @@ limitations under the License.
 
 A copy of the license is available in the repository's [License.txt](License.txt)
 
-[](Esri Tags: FileGDB API C++ data-management)
+[](Esri Tags: FileGDB API C++)
 [](Esri Language: C++)​
