@@ -2,6 +2,8 @@
 The File Geodatabase C++ API for Windows, MacOS and Linux. The API provides basic tools that allow the creation of file geodatbases, feature classes and tables. Simple features can be created and loaded. See the README included in each of the zip/tar files for a more complete list. .NET bindings are included.
 
 ## Features
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKeithRyden%2Ffile-geodatabase-api-test.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FKeithRyden%2Ffile-geodatabase-api-test?ref=badge_shield)
+
 
 ## Instructions
 Download the version/operating system/compiler varient(s) of the API that you need and unzip it into a folder. Note that the 1.5.1 version is used here for example.
@@ -109,3 +111,6 @@ A copy of the license is available in the repository's [License.txt](License.txt
 
 [](Esri Tags: FileGDB API C++)
 [](Esri Language: C++)​
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKeithRyden%2Ffile-geodatabase-api-test.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKeithRyden%2Ffile-geodatabase-api-test?ref=badge_large)
